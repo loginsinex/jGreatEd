@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jGreatEd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\CListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\crebar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\CStatusBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctoolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctreeview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CDialogTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CPropSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CSysString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\MainWindow\CMainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CAboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\FDSFile\CFDSFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\FDSFile\FDStruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESMap\CNESFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesPointers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\Pointers\J_Pointers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesLevelSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesCanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesCanvas_Win32Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesLeveleader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesLevelInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesLevelsKeeper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesObjectsNames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesPlayerEntrance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\NesEnemyItems\ComplexEnemyObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\NesEnemyItems\SimpleEnemyItems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\NesLevelItems\CNesLevelItemGroundType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\NesLevelItems\LongObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\NesLevelItems\MassiveObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\NesLevelItems\SingleBlockObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\CNesEnemyObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\CNesGameLinks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\CNesLevelItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\CNesLevelView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\CNesMetatiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\CNesObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\CNesObjectData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\CNesTileCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NESEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CSelectLevelDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesLevelsHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesPatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CAreaPropertiesDlgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CChangeAreaTypeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CGroundDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CLinkManagerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CLoopSettingsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CNewObjectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CPaletteEditorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CAreasDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesGameEngineHack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesDemoPlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CDemoPlayEditorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CWorldEditorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CCreateNewAreaDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CPageReferencesDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\CLimitsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\CNesDrawQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\NESEditor\NesObjects\NesLevelItems\GroundDefinition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CPaletteBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CWinPaneScroll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\EngineHack\CEngineHackSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jGreatEd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\CListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\crebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\CStatusBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctreeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CBitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CDialogTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CPropSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CSysString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\MainWindow\CMainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CAboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\MainWindow\CMainWindowCtl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\FDSFile\CFDSFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\FDSFile\CFDSDiskFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\FDSFile\CFDSDiskSide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\FDSFile\CFDSDisk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESMap\CNESFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESMap\CNESRAM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESMap\CNESPPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESMap\CNESMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESColors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesPointers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\Pointers\J_Pointers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\NesEnemyItems\ComplexEnemyObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\NesEnemyItems\SimpleEnemyItems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\NesLevelItems\CNesLevelItemGroundType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\NesLevelItems\LongObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\NesLevelItems\MassiveObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\NesLevelItems\SingleBlockObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\CNesEnemyObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\CNesGameLinks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\CNesLevelItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\CNesLevelView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\CNesMetatiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\CNesObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\CNesObjectData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\NesObjects\CNesTileCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesCanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesCanvas_Control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesCanvas_Win32Control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLevel_EnemyParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLevel_ItemsParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLevel_LoopParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLevelHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLevelInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLevelsKeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesObjectsNames.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesPlayerEntrance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLevelSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesEditor_Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesEditor_Dumper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CSelectLevelDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLevelsHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesPatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CAreaPropertiesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CChangeAreaTypeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CGroundDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CLinkManagerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CLoopSettingsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CNewObjectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CPaletteEditorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CAreasDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\EngineHack\CEngineHackSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesGameEngineHack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesDemoPlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CDemoPlayEditorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\MainWindow\CMainWindowDumperCtl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CWorldEditorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CCreateNewAreaDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CPageReferencesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesEditor_LevelSnapshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesLevel_Snapshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\CLimitsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\NESEditor\CNesDrawQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CPaletteBitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CWinPaneScroll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="jGreatEd.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="jGreatEd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rc\11.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rc\100.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rc\102.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rc\104.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rc\106.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rc\216.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rc\greated.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rc\216.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
